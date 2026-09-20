@@ -1,31 +1,75 @@
 <!DOCTYPE html>
-<html><head>
+<html lang="en">
+<head>
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>DARBAN DADA</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<title>DARBAN DADA - Verified Community</title>
+
+<!-- Meta Pixel Code -->
+<script>
+!function(f,b,e,v,n,t,s)
+{if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];
+s.parentNode.insertBefore(t,s)}(window, document,'script',
+'https://connect.facebook.net/en_US/fbevents.js');
+fbq('init', '1622535649377842');
+fbq('track', 'PageView');
+</script>
+<noscript><img height="1" width="1" style="display:none"
+src="https://www.facebook.com/tr?id=1622535649377842&ev=PageView&noscript=1"
+/></noscript>
+<!-- End Meta Pixel Code -->
+
 <style>
-*{margin:0;padding:0;box-sizing:border-box;font-family:Poppins,sans-serif}
+*{margin:0;padding:0;box-sizing:border-box;font-family:Inter,sans-serif}
 body{background:#000}
-.page{width:100%;max-width:420px;margin:0 auto;min-height:100vh;background:url('bg.jpg') top/cover no-repeat;position:relative}
-.page:before{content:'';position:absolute;inset:0;background:linear-gradient(to bottom,rgba(0,0,0,0.1),#000 85%)}
-.box{position:relative;z-index:2;padding:15px;text-align:center;padding-top:350px}
-h1{font-size:54px;font-weight:900;color:#FFC400;line-height:.9;text-shadow:0 4px 20px #000}
-.card{background:rgba(20,20,30,0.8);border-radius:20px;padding:15px;margin-top:20px;backdrop-filter:blur(10px);border:1px solid rgba(255,255,255,.1)}
-.btn{display:block;background:#0095ff;color:#fff;padding:18px;border-radius:50px;text-decoration:none;font-weight:800;font-size:18px;margin-top:15px}
-</style></head>
+.main{max-width:420px;margin:auto;min-height:100vh;background:url('bg.jpg') center top/cover no-repeat;position:relative;display:flex;flex-direction:column;justify-content:flex-end}
+.main::before{content:'';position:absolute;inset:0;background:linear-gradient(to bottom,rgba(0,0,0,.1) 25%,#000 88%)}
+.box{position:relative;z-index:2;padding:16px 14px 20px}
+h1{color:#FFCC00;font-size:54px;font-weight:900;line-height:.85;letter-spacing:-1px;text-shadow:0 4px 20px rgba(0,0,0,.8)}
+h1 span{color:#8B5CF6}
+.sub{color:#fff;opacity:.7;font-size:11px;letter-spacing:3px;margin:10px 0 18px}
+.pill{background:rgba(25,25,40,.9);border:1px solid rgba(124,58,237,.4);border-radius:16px;padding:14px 16px;display:flex;align-items:center;gap:14px;margin-bottom:11px;backdrop-filter:blur(12px)}
+.icon{width:40px;height:40px;border:1px solid #7C3AED;border-radius:50%;display:grid;place-items:center;font-size:18px;color:#A78BFA}
+.pill b{color:#fff;font-size:15px}.pill small{color:#9CA3AF;font-size:12px}
+.card{background:rgba(21,21,30,.95);border-radius:20px;padding:14px;border:1px solid rgba(255,255,255,.07);margin-top:8px}
+.row{display:flex;justify-content:space-around;text-align:center;margin-bottom:14px}
+.row b{font-size:17px;color:#fff;display:block}.row small{font-size:10px;opacity:.45;color:#fff}
+.btn{display:block;background:#0A84FF;color:#fff;text-align:center;padding:17px;border-radius:100px;font-weight:800;font-size:16px;text-decoration:none;box-shadow:0 10px 25px rgba(10,132,255,.4)}
+</style>
+</head>
 <body>
-<div class="page">
+<div class="main">
 <div class="box">
-<h1>DARBAN DADA ✔️</h1>
-<p style="color:#fff;opacity:.7;letter-spacing:3px;font-size:12px;margin-top:5px">VERIFIED COMMUNITY • 1248 LIVE</p>
+<h1>DARBAN<br>DADA <span>✔️</span></h1>
+<div class="sub">VERIFIED COMMUNITY • 1248 LIVE</div>
+
+<div class="pill"><div class="icon">◎</div><div><b>Toss Update • 7:30 PM</b></div></div>
+<div class="pill"><div class="icon">📈</div><div><b>Match Analysis</b><br><small>Live Discussion</small></div></div>
+<div class="pill"><div class="icon">📊</div><div><b>Session Stats</b><br><small>Live Insights</small></div></div>
+
 <div class="card">
-<div style="display:flex;justify-content:space-around;margin-bottom:15px">
-<div><b style="font-size:18px">222K+</b><br><small style="opacity:.5">Members</small></div>
-<div><b style="color:#FFD700">★4.9</b><br><small style="opacity:.5">Rating</small></div>
-<div><b style="color:#0f0">●LIVE</b><br><small style="opacity:.5">Session</small></div>
+<div class="row">
+<div><b>222K+</b><small>Members</small></div>
+<div><b style="color:#FFD700">★4.9</b><small>Rating</small></div>
+<div><b style="color:#00FF55">●LIVE</b><small>Session</small></div>
 </div>
-<a class="btn" href="https://t.me/+7R8yShrEyElhYzll">✈️ Join Telegram Now — Free</a>
+<a class="btn" id="joinBtn" href="https://t.me/+7R8yShrEyElhYzll" target="_blank">✈️ Join Telegram Now — Free</a>
 </div>
 </div>
 </div>
-</body></html>
+
+<script>
+// Pixel Event on Telegram Click - For Optimization
+document.getElementById('joinBtn').addEventListener('click', function(){
+  fbq('track', 'Lead');
+  fbq('track', 'CompleteRegistration');
+  fbq('track', 'Contact');
+});
+</script>
+
+</body>
+</html>
